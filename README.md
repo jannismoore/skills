@@ -28,20 +28,20 @@ Copy to your skills directory:
 
 ```bash
 # Claude Code (global)
-cp -r <skill-name> ~/.claude/skills/
+cp -r skills/<skill-name> ~/.claude/skills/
 
 # Claude Code (project-level)
-cp -r <skill-name> .claude/skills/
+cp -r skills/<skill-name> .claude/skills/
 
 # Cursor
-cp -r <skill-name> .cursor/skills/
+cp -r skills/<skill-name> .cursor/skills/
 ```
 
 ## Available Skills
 
 | Skill | Description | Triggers |
 |-------|-------------|----------|
-| *Coming soon* | | |
+| `auphonic-optimize` | Optimize audio files via the Auphonic API — leveling, noise reduction, loudness normalization | User wants to optimize, clean up, or post-process audio with Auphonic |
 
 ## Connect
 
